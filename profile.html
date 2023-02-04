@@ -1,0 +1,265 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile</title>
+</head>
+<body>
+  <div class="page d-flex">
+    <div class="sidebar p-20 p-relative bg-white">
+        <h3 class="p-relative txt-c mt-0">Neoir</h3>
+        <ul>
+            <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                    <i class="fa-regular fa-chart-bar fa-fw"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                    <i class="fa-solid fa-gear fa-fw"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex active align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                    <i class="fa-regular fa-user fa-fw"></i>
+                    <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                    <i class="fa-solid fa-diagram-project fa-fw"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                    <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                    <span>Courses</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                    <i class="fa-regular fa-circle-user fa-fw"></i>
+                    <span>Friends</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                    <i class="fa-regular fa-file fa-fw"></i>
+                    <span>Files</span>
+                </a>
+            </li>
+            <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                    <i class="fa-regular fa-credit-card fa-fw"></i>
+                    <span>Plans</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="content w-full">
+        <!--Start Header-->
+        <div class="header bg-white p-15 between-flex">
+            <div class="search">
+                <input class="rad-6 p-relative" type="text" placeholder="Type a Keyword"> 
+                <i class="fa-solid fa-search"></i>  
+            </div>
+            <div class="notification d-flex align-center p-relative">
+                <div class="not point">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                </div>
+                <img src="https://github.com/ElzeroWebSchool/HTML_And_CSS_Template_Four/blob/main/imgs/avatar.png?raw=true" alt="">
+            </div>
+        </div>
+        <!--End Header-->
+        <h2 class="title p-relative p-20 mt-0">Profile</h2>
+        <div class="profile-page p-15 mt-0">
+            <div class="overview bg-white rad-10 d-flex align-center">
+             <div class="avatar-box txt-c p-15">
+                <img src="https://github.com/ElzeroWebSchool/HTML_And_CSS_Template_Four/blob/main/imgs/avatar.png?raw=true" class="mt-15px" alt="">
+                <h4 class="m-0">Khalid Nageh</h4>
+                <p class="c-grey">Level 20</p>
+                <div class="level p-relative rad-6 bg-eee">
+                    <span style="width: 70%;"></span>
+                </div>
+                <div class="rating c-orange">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="c-grey rate">550 Rating</p>
+             </div>
+             <div class="info-box">
+                <!-- First Row -->
+                <div class="box p-15 d-flex align-center">
+                    <h5 class="normal c-grey w-full fs-13 m-0">General Information</h5>
+                    <div class="fs-13">
+                        <span class="c-grey">Full Name: </span>
+                        <span>Khalid Nageh</span>
+                    </div>
+                    <div class="fs-13">
+                        <span class="c-grey">Gender: </span>
+                        <span> Male</span>
+                    </div>
+                    <div class="fs-13">
+                        <span class="c-grey">Country:</span>
+                        <span>Egypt</span>
+                    </div>
+                    <div class="fs-13">
+                        <label>
+                        <input type="checkbox"  class="toggle-checkbox" checked>
+                        <div class="toggle-switch"></div>
+                      </label> 
+                    </div>
+                </div>
+                <!-- First Row -->
+                <!--Second Row-->
+                <div class="box p-15 d-flex align-center">
+                    <h5 class="normal c-grey w-full fs-13 m-0">Personal Information</h5>
+                    <div class="fs-13">
+                        <span class="c-grey">Personal Information: </span>
+                        <span>o@nn.sa</span>
+                    </div>
+                    <div class="fs-13">
+                        <span class="c-grey">Phone: </span>
+                        <span> 019123456789</span>
+                    </div>
+                    <div class="fs-13">
+                        <span class="c-grey">Date Of Birth:</span>
+                        <span>25/10/1982</span>
+                    </div>
+                    <div class="fs-13">
+                        <label>
+                        <input type="checkbox"  class="toggle-checkbox">
+                        <div class="toggle-switch"></div>
+                      </label> 
+                    </div>
+                </div>
+                <!--Second Row-->
+                <!--Third Row-->
+                <div class="box p-15 d-flex align-center">
+                    <h5 class="normal c-grey w-full fs-13 m-0">Job Information</h5>
+                    <div class="fs-13">
+                        <span class="c-grey">Title: </span>
+                        <span>Full Stack Developer</span>
+                    </div>
+                    <div class="fs-13">
+                        <span class="c-grey">Programming Language: </span>
+                        <span> JavaScript</span>
+                    </div>
+                    <div class="fs-13">
+                        <span class="c-grey">Years Of Experience:</span>
+                        <span>10+</span>
+                    </div>
+                    <div class="fs-13">
+                        <label>
+                        <input type="checkbox"  class="toggle-checkbox" checked>
+                        <div class="toggle-switch"></div>
+                      </label> 
+                    </div>
+                </div>
+                <!--Third Row-->
+                <!--Fourth Row-->
+                <div class="box p-15 d-flex align-center">
+                    <h5 class="normal c-grey w-full fs-13 m-0">Billing Information</h5>
+                    <div class="fs-13">
+                        <span class="c-grey">Payment Method: </span>
+                        <span>Paypal</span>
+                    </div>
+                    <div class="fs-13">
+                        <span class="c-grey">Email: </span>
+                        <span>email@website.com</span>
+                    </div>
+                    <div class="fs-13">
+                        <span class="c-grey">Subscription:</span>
+                        <span>Subscription</span>
+                    </div>
+                    <div class="fs-13">
+                        <label>
+                        <input type="checkbox"  class="toggle-checkbox">
+                        <div class="toggle-switch"></div>
+                      </label> 
+                    </div>
+                </div>
+                <!--Fourth Row-->
+             </div>
+            </div>
+            <div class="other-data d-flex ">
+                <div class="skills rad-10 bg-white p-relative p-15 mt-15">
+                    <h3 class="mt-0">My Skills</h3>
+                    <span class="mt-0 fs-13 c-grey ">Complete Skills List</span>
+                    <ul>
+                        <li><span>HTML</span><span>Pugjs</span><span>HAML</span></li>
+                        <li><span>CSS</span><span>SASS</span><span>Stylus</span></li>
+                        <li><span>JavaScript</span><span>TypeScript</span></li>
+                        <li><span>Vuejs</span><span>Reactjs</span></li>
+                        <li><span>Jest</span><span>Jasmine</span></li>
+                        <li><span>PHP</span><span>Laravel</span></li>
+                        <li><span>Python</span><span>Django</span></li>
+                    </ul>
+                </div>
+                <div class="activities rad-10 bg-white p-relative p-15 mt-15">
+                    <h3 class="mt-0">Latest Activities</h3>
+                    <span class="mt-0 fs-13 c-grey ">Latest Activities Done By The User</span>
+                    <div class="row d-flex align-center txt-c-mobile">
+                        <img src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/activity-01.png" alt="">
+                        <div class="info">
+                            <span class="d-block fs-13 mb-10">Store</span>
+                            <span class="c-grey fs-13">Bought The Mastering Python Course</span>
+                        </div>
+                        <div class="date">
+                            <span class="d-block fs-13 mb-10">18:10</span>
+                            <span class="c-grey fs-13">Yesterday</span>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-center txt-c-mobile">
+                        <img src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/activity-02.png" alt="">
+                        <div class="info">
+                            <span class="d-block fs-13 mb-10">Academy</span>
+                            <span class="c-grey fs-13">Got The JavaScript Certificate</span>
+                        </div>
+                        <div class="date">
+                            <span class="d-block fs-13 mb-10">16:05</span>
+                            <span class="c-grey fs-13">Yesterday</span>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-center txt-c-mobile">
+                        <img src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/activity-03.png" alt="">
+                        <div class="info">
+                            <span class="d-block fs-13 mb-10">Badges</span>
+                            <span class="c-grey fs-13">Unlocked The 10 Skills Badge</span>
+                        </div>
+                        <div class="date">
+                            <span class="d-block fs-13 mb-10">18:05</span>
+                            <span class="c-grey fs-13">Yesterday</span>
+                        </div>
+                    </div>
+                    <div class="row d-flex align-center txt-c-mobile">
+                        <img src="https://elzerowebschool.github.io/HTML_And_CSS_Template_Four/imgs/activity-01.png" alt="">
+                        <div class="info">
+                            <span class="d-block fs-13 mb-10">Store</span>
+                            <span class="c-grey fs-13">Bought The Typescript Course</span>
+                        </div>
+                        <div class="date">
+                            <span class="d-block fs-13 mb-10">12:05</span>
+                            <span class="c-grey fs-13">Yesterday</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
