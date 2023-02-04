@@ -714,6 +714,13 @@ h2::after {
     opacity: 0.7;
 }
 
+@media (max-width: 767px) {
+    .last-progress img {
+        display: none;
+    }
+    
+}
+
 .reminders .remind-row {
   font-size: 11px;
   position: relative;
@@ -1028,6 +1035,11 @@ h2::after {
 .site-control .control div {
     font-size: 12px;
     margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.ann {
+    text-align: center;
 }
 
 .site-control .control span {
@@ -1851,7 +1863,6 @@ h2::after {
 .files-page {
     flex-direction: row-reverse;
     align-items: flex-start;
-    gap: 20px;
 }
 
 
@@ -2006,6 +2017,7 @@ h2::after {
 
 
 .plans {
+    display: grid;
     gap: 20px;
 }
 
